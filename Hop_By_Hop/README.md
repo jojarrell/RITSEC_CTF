@@ -1,6 +1,6 @@
 ![Image](https://i.postimg.cc/nVP0J5mH/Screenshot-5.png)
 
-This challenge is easy once you understand the concept of hop by hop headers.
+This challenge is easy once you understand the concept of hop by hop HTTP headers.
 
 There is two types of HTTP header:
 
@@ -18,3 +18,5 @@ What we can do, is use the X-Forwarded-For HTTP header (which store our ip addre
 We can do that by adding X-Forwarded-For to the Connection header wich makes sure our IP isnt being communicated by proxies over further connections.
 
 ![Image3](https://i.postimg.cc/CLMfZwfG/Screenshot-1.png)
+
+You can read more about this here: [Link](https://nathandavison.com/blog/abusing-http-hop-by-hop-request-headers)
